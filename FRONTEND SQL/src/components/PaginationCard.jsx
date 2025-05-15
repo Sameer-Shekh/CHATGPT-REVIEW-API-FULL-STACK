@@ -139,12 +139,12 @@ const cardContainerStyle = {
 };
 
 const cardStyle = {
-  background: "#435b88",
+  background: "#ffffff",
   padding: "20px",
   borderRadius: "10px",
-  boxShadow: "0 4px 8px rgba(4, 2, 2, 0.1)",
+  boxShadow: "4px 4px 8px rgba(4, 2, 2, 0.1)",
   transition: "transform 0.2s ease",
-  color: "white",
+  color: "black",
 };
 
 const ratingStyle = {
@@ -156,13 +156,13 @@ const ratingStyle = {
 const reviewTextStyle = {
   marginTop: "10px",
   fontSize: "14px",
-  color: "#ffffff",
+  color: "black",
 };
 
 const dateStyle = {
   marginTop: "10px",
   fontSize: "12px",
-  color: "#ffffff",
+  color: "black",
 };
 
 const paginationContainerStyle = {
@@ -176,7 +176,7 @@ const buttonStyle = {
   padding: "10px 20px",
   border: "none",
   borderRadius: "6px",
-  background: "#435b88",
+  background: "#0d5cf1",
   color: "white",
   fontSize: "14px",
   cursor: "pointer",

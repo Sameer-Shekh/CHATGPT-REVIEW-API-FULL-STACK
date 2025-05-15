@@ -121,7 +121,7 @@ const cardContainerStyle = {
 };
 
 const cardStyle = {
-  background: "#435b88",
+  background: "#ffffff",
   padding: "20px",
   borderRadius: "10px",
   boxShadow: "0 4px 8px rgba(4, 2, 2, 0.1)",
@@ -138,13 +138,13 @@ const ratingStyle = {
 const reviewTextStyle = {
   marginTop: "10px",
   fontSize: "14px",
-  color: "#ffffff",
+  color: "#000000",
 };
 
 const dateStyle = {
   marginTop: "10px",
   fontSize: "12px",
-  color: "#ffffff",
+  color: "#000000",
 };
 
 export default SortReviewCard;
