@@ -36,32 +36,24 @@ Backend Setup
 Install Backend Dependencies
 Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/review-api.git
 cd review-api
 Install the required dependencies for the backend:
 
-bash
-Copy
-Edit
+
 npm install
 Backend Environment Variables
 Set up a .env file in the root directory for the backend (same level as server.js). Add the following environment variable:
 
-ini
-Copy
-Edit
+
 SUPABASE_URL=<Your Supabase URL>
 Replace <Your Supabase URL> with the actual URL from your Supabase project.
 
 Running the Backend
 Start the backend server in development mode:
 
-bash
-Copy
-Edit
+
 npm run dev
 The backend will be running at http://localhost:5000 (or the port you specified).
 
@@ -69,22 +61,16 @@ Frontend Setup
 Install Frontend Dependencies
 Navigate to the client directory:
 
-bash
-Copy
-Edit
+
 cd client
 Install the required dependencies for the frontend:
 
-bash
-Copy
-Edit
+
 npm install
 Running the Frontend
 Start the React development server:
 
-bash
-Copy
-Edit
+
 npm run dev
 The frontend will be running at http://localhost:3000.
 
